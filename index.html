@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Bill Management</title>
+</head>
+<body>
+    <div class="header">
+        <div class="cpy_name">AB Market Store</div>
+    </div>
+    <div class="middle">
+        <table class="AddInfo">
+            <thead>
+            <td>Product Name</td>
+                <td>Quantity</td>
+                <td>Rate</td>
+                    <td>Price</td>
+            </thead>
+            <tr>
+                <td><input type="text" id="P_name"></td>
+                <td><input type="number" id="qty"></td>
+                <td><input type="number" id="rate"></td>
+                <td><input type="number" id="price"></td>
+                <td><button>Add</button></td>
+            </tr>
+            
+        </table>
+        <h1>Items in the list</h1>
+        <table>
+            <td>Bill Number:<span class="bill_no"></span></td>
+            <td>Date:<span class="date"></span></td>
+        </table>
+        
+        <table class="item_list">
+            <thead class="addValue"> 
+                <td>Product Name</td>
+                <td>Quantity</td>
+                <td>Rate</td>
+                <td>Price</td>
+            </thead>
+            
+        </table>
+    </div>
+</body>
+</html>
