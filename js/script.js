@@ -13,8 +13,17 @@ $(document).ready(function(){
         $("#price").val(price);
     }
     });
-    $("button").click(function(){
+    $("#add").click(function(){
+        if(P_name!=undefined || qty!=undefined || rate!=undefined||price!=undefined  ){
         var list_item = "$((<tr><td>"+P_name+"</td><td>"+qty+"</td><td>"+rate+"</td><td>"+price+"</td>";
         $(".addValue").append(list_item);
+            $("#qty").val("");
+            $("#rate").val("");
+            $("#P_name").val("");
+            $("#price").val("");
+        }
     });
+    function print(){
+        window.print();
+    }
 });
