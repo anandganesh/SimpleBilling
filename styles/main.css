@@ -1,37 +1,41 @@
-.header{
-    margin: 2%;
-    background-color: blue;
-    padding: 1%;
-    height: 50px;
+.header {
+	margin: 2%;
+	background-color: blue;
+	padding: 1%;
+	height: 50px;
 }
-.cpy_name{
-    font-size: 50px;
-    color: white;
+
+.cpy_name {
+	font-size: 50px;
+	color: white;
 }
-.AddInfo{
-   
-    margin-left: 10%;
-     margin-right: 10%;
-    width: 90%;
+
+.AddInfo {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 90%;
 }
-.middle{
-    margin-left: 10%;
-    margin-right: 10%;
+
+.middle {
+	margin-left: 10%;
+	margin-right: 10%;
 }
-table, td, th {    
-    border: 1px solid #ddd;
-    text-align: left;
+
+table, td, th {
+	border: 1px solid #ddd;
+	text-align: left;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+	border-collapse: collapse;
+	width: 100%;
 }
 
 th, td {
-    padding: 15px;
+	padding: 15px;
 }
-.print{
-    margin-left: 46%;
-    margin-top: 1%;
+
+.print {
+	margin-left: 46%;
+	margin-top: 1%;
 }
