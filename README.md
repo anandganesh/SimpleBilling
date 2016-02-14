@@ -1,2 +1,2 @@
 # SimpleBilling
-FreeBillingSoftware for small store
+Here is a simple Billing web application using jquery and Javascript.
